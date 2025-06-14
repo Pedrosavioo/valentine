@@ -6,7 +6,7 @@ const Page02 = () => {
    const navigate = useNavigate();
    
    function handleClick() {
-      navigate("/3");
+      navigate("/valentine/3");
    }
 
    return (

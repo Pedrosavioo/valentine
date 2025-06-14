@@ -24,7 +24,7 @@ const Page03 = () => {
     }
 
     if (time === 0) {
-      navigate("/4"); // Redireciona para a rota '/2' quando 'time' for 0
+      navigate("/valentine/4"); // Redireciona para a rota '/2' quando 'time' for 0
     }
   }, [time, navigate]);
 

@@ -35,7 +35,7 @@ const Page04 = () => {
          ) : (
             <>
                <p>Agora é sério chega de gracinha, clica ali no avançar pfv</p>
-               <button className="btn" onClick={() => navigate("/home")}>Avançar </button>
+               <button className="btn" onClick={() => navigate("/valentine/home")}>Avançar </button>
             </>
          )}
       </section>
