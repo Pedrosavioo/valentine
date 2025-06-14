@@ -1,0 +1,31 @@
+.btn-next {
+   position: absolute;
+   bottom: 1rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 10;
+   width: 100vw;
+   height: 40px;
+
+   & img {
+      height: 60px;
+      rotate: 90deg;
+   }
+}
+
+.btn-prev {
+   position: absolute;
+   top: 1rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 10;
+   width: 100vw;
+   height: 40px;
+
+   & img {
+      height: 50px;
+      rotate: -90deg;
+   }
+}

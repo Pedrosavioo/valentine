@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+:root {
+   --primary-color: #ff9797;
+   --secondary-color: #ffffff;
+   --font-text: 'Playfair', sans-serif;
+   --font-title: 'Dancing Script', sans-serif;
+}
+
+* {
+   padding: 0;
+   bottom: 0;
+   margin: 0;
+   box-sizing: border-box;
+   outline: none;
+   font-family: var(--font-text);
+}
+
+html,
+body {
+   width: 100vw;
+   height: 100vh;
+   overflow: hidden;
+   background: #EBDDDD;
+}
+
+.btn {
+   padding: 1rem;
+   border-radius: 0.5rem;
+   border: none;
+   background: #ff9797;
+   color: #ffffff;
+   cursor: pointer;
+   font-size: 1.2rem;
+   box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+}

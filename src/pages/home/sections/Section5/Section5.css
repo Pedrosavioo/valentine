@@ -1,0 +1,128 @@
+#section-5 {
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+
+   .content-text {
+      position: relative;
+      z-index: 2;
+      width: 75%;
+      height: 80%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: -1.5rem;
+
+      & p {
+         font-size: 0.9rem;
+         text-align: center;
+      }
+
+      & #p5 {
+         font-size: 1.5rem;
+         font-weight: bold;
+         margin-top: 1rem;
+      }
+   }
+
+   & #img-bike {
+      position: absolute;
+      z-index: 2;
+      width: 150px;
+      height: 150px;
+      bottom: 13vh;
+      rotate: -10deg;
+   }
+
+   & footer {
+      display: flex;
+      position: absolute;
+      bottom: 0;
+      justify-content: center;
+      align-items: center;
+
+      & p {
+         width: 80%;
+         text-align: center;
+         font-size: 0.8rem;
+         margin-bottom: 1rem;
+      }
+   }
+}
+
+.fade1 {
+   animation: fade .2s ease-in forwards;
+   opacity: 0;
+}
+
+@keyframes fade1 {
+   to {
+      opacity: 1;
+   }
+}
+.fade2 {
+   animation: fade .4s ease-in forwards;
+   opacity: 0;
+}
+
+@keyframes fade2 {
+   to {
+      opacity: 1;
+   }
+}
+.fade3 {
+   animation: fade .6s ease-in forwards;
+   opacity: 0;
+}
+
+@keyframes fade3 {
+   to {
+      opacity: 1;
+   }
+}
+.fade4 {
+   animation: fade .8s ease-in forwards;
+   opacity: 0;
+}
+
+@keyframes fade4 {
+   to {
+      opacity: 1;
+   }
+}
+.fade5 {
+   animation: fade 1s ease-in forwards;
+   opacity: 0;
+}
+
+@keyframes fade5 {
+   to {
+      opacity: 1;
+   }
+}
+
+& .fade-in {
+   animation: fadeIn 0.5s ease-in forwards;
+   opacity: 1;
+}
+
+@keyframes fadeIn {
+   to {
+      opacity: 0;
+   }
+}
+
+.slide-up {
+   animation: slideUp 1s ease-out forwards;
+   opacity: 1;
+   transform: translateY(0); /* posição inicial */
+}
+
+@keyframes slideUp {
+   to {
+      opacity: 0;
+      transform: translateY(-20px); /* posição final */
+   }
+}
